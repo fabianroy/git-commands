@@ -134,11 +134,12 @@ Certainly! Here’s a list of common Git commands explained in plain text:
   - `git config --global user.email "your-email@example.com"`  
   Sets the global email for commits.
 
-### To Remove A Repo From Git
-- `Remove-Item -Recurse -Force .git`
-
 - **Show Git Status for a File:** 
   - `git ls-files`  
   Lists all files currently tracked by Git.
+
+### To Uninit A Repo From Git
+- `rmdir /S /Q .git`
+- `Remove-Item -Recurse -Force .git`
 
 These commands should help you perform a wide range of Git operations effectively.
