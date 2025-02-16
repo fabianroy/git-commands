@@ -10,7 +10,7 @@ Certainly! Here’s a list of common Git commands explained in plain text:
   - `git clone <repository-url>`  
   Creates a copy of an existing repository from a URL.
 
--**Clone a Specefic Branch**
+- **Clone a Specefic Branch**
   - `git clone -b <branch> <remote_repo>`
 
 - **Check Repository Status:** 
